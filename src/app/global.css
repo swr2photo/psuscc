@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Framework7 iOS light */
+    --background: 240 6% 94%;
+    --foreground: 0 0% 0%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+    --primary: 211 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 46%;
+    --accent: 240 5% 96%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 4 100% 59%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 4% 83%;
+    --input: 240 5% 91%;
+    --ring: 211 100% 50%;
+    --radius: 0.625rem;
+  }
+
+  .dark,
+  :root[data-color-scheme='dark'] {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --card: 240 4% 11%;
+    --card-foreground: 0 0% 100%;
+    --popover: 240 4% 11%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 211 100% 52%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 4% 17%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 4% 17%;
+    --muted-foreground: 240 4% 46%;
+    --accent: 240 4% 20%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 4 100% 61%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 3% 33%;
+    --input: 240 4% 17%;
+    --ring: 211 100% 52%;
+  }
+}
